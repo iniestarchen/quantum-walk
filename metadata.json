@@ -1,0 +1,33 @@
+{
+  "id": "quantum-walk",
+  "name": "Discrete Quantum Walk on 4-node Cycle",
+  "category": "simulation",
+  "description": "2-step discrete quantum walk on a 4-node cycle using Hadamard coin (1 coin qubit, 2 position qubits).",
+  "long_description": "A discrete quantum walk is the quantum analogue of a classical random walk. A 'coin' qubit in superposition drives conditional position shifts: |0\u27e9 steps left, |1\u27e9 steps right. Unlike a classical walk, the quantum walker can be in superposition of positions, creating interference patterns. After t steps the probability distribution spreads quadratically faster than classically. This circuit runs 2 steps on a 4-node cycle.",
+  "difficulty": "advanced",
+  "qubit_count": 3,
+  "clbit_count": 2,
+  "gate_count": 20,
+  "depth": 12,
+  "tags": [
+    "quantum-walk",
+    "search",
+    "random-walk",
+    "speedup",
+    "graph-algorithms"
+  ],
+  "circuit_formats": [
+    "qasm2"
+  ],
+  "source_file": "circuit.qasm",
+  "expected_output": "Non-uniform distribution over 4 positions showing quantum interference",
+  "references": [
+    {
+      "title": "Aharonov, Ambainis, Kempe, Vazirani (2001). Quantum Walks on Graphs. STOC '01",
+      "url": "https://doi.org/10.1145/380752.380803"
+    }
+  ],
+  "author": "OpenQC Community",
+  "license": "MIT",
+  "version": "1.0.0"
+}
