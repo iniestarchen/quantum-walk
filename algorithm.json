@@ -1,0 +1,28 @@
+{
+  "slug": "quantum-walk",
+  "name": "Discrete Quantum Walk",
+  "version": "1.0.0",
+  "author": "iniestarchen",
+  "license": "Apache-2.0",
+  "description": "2-step discrete quantum walk on a 4-node cycle using Hadamard coin.",
+  "industries": [
+    "education"
+  ],
+  "techniques": [
+    "gate"
+  ],
+  "difficulty": "intermediate",
+  "computation_model": "gate",
+  "algorithm_type": "circuit",
+  "qubit_count": 3,
+  "tags": [
+    "quantum-walk",
+    "graph",
+    "coin-operator"
+  ],
+  "access": "open",
+  "source": "official",
+  "metadata": {
+    "year_introduced": 1993
+  }
+}
